@@ -1,0 +1,70 @@
+/* Structural styles shared by every theme. Colours live in themes/*.css */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font:10pt Arial,Helvetica,sans-serif;margin:0;padding:0 8px 40px}
+img{max-width:100%}
+.wrap{max-width:1100px;margin:0 auto;padding:6px 4px}
+.navbar{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;padding:6px 8px;font-size:9pt}
+.themef{margin-left:auto}
+.title{text-align:center;font:bold 24pt Tahoma,Arial,sans-serif;letter-spacing:-2px;margin:10px 0 2px}
+.subtitle,.center{text-align:center}
+.banner{text-align:center;margin:8px 0}.banner img{border:1px solid #888}
+hr{border:0;border-top:1px solid #b7c5d9;clear:both;margin:8px 0}
+.box{padding:10px 14px;margin:10px auto;max-width:900px;border:1px solid #b7c5d9;border-radius:6px}
+.box.narrow,.narrow{max-width:460px}.big{font-size:16pt;text-align:center}
+.flash{border-color:#2a2}.err{border-color:#c33}
+.formtable{border-spacing:2px;margin:0 auto}.formtable th{text-align:left;padding:4px 8px;white-space:nowrap}.formtable td{padding:2px}
+.postform{text-align:center}.postform .formtable{margin:0 auto}
+.postform textarea{width:100%;min-width:300px;max-width:520px}
+input[type=text],input[type=password],input[type=number],select,textarea{padding:2px 4px;max-width:100%}
+.hp{position:absolute;left:-9999px;top:-9999px;height:0;overflow:hidden}
+.hint{font-size:8pt;opacity:.8}
+.postmode{text-align:center;font-weight:bold;padding:2px;background:#e04000;color:#fff;margin:6px 0}
+.links,.pages{text-align:center;margin:6px 0}
+.tbl{border-collapse:separate;border-spacing:1px;width:100%;max-width:1000px;margin:10px auto}
+.tbl th{padding:4px 8px;text-align:left}.tbl td{padding:4px 8px;vertical-align:top}
+.tbl.home{max-width:760px}.bantbl{max-width:620px}.bantbl th{width:140px}
+.sub td{font-weight:bold}
+.thread{clear:both}
+div.post.op{display:block;margin:4px 0;overflow:auto}
+div.post.reply{display:table;margin:.3em 6px;padding:.2em .3em .5em .6em;max-width:100%}
+.post .intro{margin:2px 0}.post .subject{font-weight:bold}.post .body{margin:6px 12px;overflow-wrap:anywhere}
+.post .files{float:left;margin:3px 16px 6px 4px;max-width:260px}.fileinfo{font-size:9pt;margin-bottom:2px}
+.post .body:after,.post:after{content:"";display:block;clear:both}
+.post-image{max-width:100%;height:auto;vertical-align:top}
+.ph{width:125px;min-height:60px;padding:6px;text-align:center;font-size:8pt;border:1px dashed #888}
+.react{max-height:1.8em;width:auto;vertical-align:middle}.ic{font-style:normal}img.ic{height:16px;width:auto;vertical-align:middle}
+.quote{color:#789922}.spoiler{background:#000;color:#000;cursor:pointer}.spoiler:hover,.spoiler.show{color:#fff}
+.spoilerimg{filter:blur(18px)}.spoilerimg:hover{filter:none}
+pre.code{overflow:auto;padding:6px;background:rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.15)}
+.embed{margin:6px 12px;clear:both}.embed iframe,.embed video{width:100%;max-width:480px;aspect-ratio:16/9;border:0}.embed img{max-width:300px}
+.badge{background:#c33;color:#fff;font-size:8pt;padding:0 4px;border-radius:3px}
+.banmsg{color:#c00;font-weight:bold;margin:4px 12px}
+.omitted{margin:4px 12px;font-size:9pt}.clear{clear:both}
+.modbar{font-size:8pt;margin:4px 0;clear:both}.modbar button{font-size:8pt;padding:0 4px;margin:0 2px}
+.banbox{font-size:8pt;margin:2px 0}.banbox form{padding:4px;display:block}
+.delform{text-align:right;margin:6px}
+.pn,.qr{text-decoration:none}
+.excerpt{margin:6px 20px;font-style:italic}
+.cimg{cursor:pointer;vertical-align:middle;border:1px solid #888}
+.capgame .cg{display:inline-block;margin:0 4px;cursor:pointer}.capgame input{position:absolute;opacity:0}
+.capgame span{display:inline-block;width:26px;height:26px;border-radius:50%;border:3px solid transparent;vertical-align:middle}
+.capgame input:checked+span{border-color:#000;box-shadow:0 0 0 2px #fff inset}.capgame input:focus+span{outline:2px solid #36d}
+.banimg{max-width:100%;max-height:300px}
+.inl{display:inline-block;margin:1px 2px}
+.foot{text-align:center;font-size:8pt;margin:30px 0 10px;opacity:.85}
+.dash{display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap}.dnav{list-style:none;margin:0;padding:0;min-width:170px}
+.dnav li{margin:2px 0}.dnav a{display:block;padding:5px 10px;text-decoration:none}.dmain{flex:1;min-width:280px;overflow-x:auto}
+.rte-bar{display:flex;flex-wrap:wrap;gap:3px;margin-bottom:4px}.rte{min-height:200px;padding:8px;border:1px solid #888;background:#fff;color:#000}
+.rich{overflow-wrap:anywhere}.icorow{margin:6px 0}
+/* role identities (kept in base so no theme can break them) */
+.intro span.name.role-admin,.intro span.rolecap.role-admin,.role-admin{color:#e00;font-weight:700;font-style:normal}
+.intro span.name.role-mod,.intro span.rolecap.role-mod,.role-mod{color:#800080;font-weight:700;font-style:normal}
+.intro span.name.role-janitor,.intro span.rolecap.role-janitor,.role-janitor{color:#ff8c00;font-weight:700;font-style:normal}
+/* modal (replaces alert/confirm/prompt) */
+.fc-modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:99}
+.fc-modal div{background:#fff;color:#000;padding:16px 20px;border-radius:8px;max-width:420px;box-shadow:0 4px 20px rgba(0,0,0,.4)}
+.fc-modal p{margin:0 0 12px}.fc-modal button{margin-right:8px}
+.fc-css{position:fixed;right:10px;bottom:10px;z-index:90;background:#fff;color:#000;border:1px solid #888;padding:8px;border-radius:6px;width:min(420px,92vw);box-shadow:0 2px 12px rgba(0,0,0,.4)}
+.fc-css textarea{width:100%;height:160px;font-family:monospace}
+@media(max-width:700px){.title{font-size:18pt}.post .files{float:none}.dnav{width:100%;display:flex;flex-wrap:wrap}.themef{margin-left:0}.postform textarea{min-width:0}}

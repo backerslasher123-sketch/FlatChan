@@ -1,0 +1,10 @@
+/* Yotsuba (classic orange) */
+body{background:#ffe;color:#800000;background-repeat:no-repeat;background-attachment:fixed;background-position:bottom right;background-size:200px}
+a{color:#00e}a:hover{color:#d00}
+.navbar{background:#f0e0d6;border-bottom:1px solid #d9bfb7}
+.title{color:#af0a0f}.subtitle{color:#555}
+.box,.tbl,.tbl td{background:#f0e0d6}.tbl th,.formtable th,.dnav li.on a{background:#ea8;color:#800000}.dnav a{background:#f0e0d6}
+div.post.reply{background:#f0e0d6;border:1px solid #d9bfb7;border-radius:.4em;box-shadow:none;margin-top:6px}
+div.post.reply div.body{overflow-y:auto;max-height:70vh}
+.intro span.name{color:#117743;font-weight:bold}.post .subject{color:#cc1105}.post .trip{color:#228854}
+.post-image{box-shadow:none}.quote{color:#789922}.ql{color:#d00}.postmode{background:#800000}.hint,.foot{color:#800000}

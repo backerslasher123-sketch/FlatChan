@@ -1,0 +1,12 @@
+/* Midnight (dark) */
+body{background:#1a1b26;color:#c8cad8;background-repeat:no-repeat;background-attachment:fixed;background-position:bottom right;background-size:200px}
+a{color:#8fa3ff}a:hover{color:#ff8fa3}
+.navbar{background:#222436;border-bottom:1px solid #3a3d5c}.themef label{color:#c8cad8}
+.title{color:#ff6b81}.subtitle{color:#9aa0c0}
+.box,.tbl,.tbl td{background:#222436;border-color:#3a3d5c}.tbl th,.formtable th,.dnav li.on a{background:#3a3d5c;color:#fff}.dnav a{background:#222436}
+div.post.reply{background:#222436;border:1px solid #3a3d5c;border-radius:.7em;box-shadow:0 2px 4px rgba(0,0,0,.6);margin-top:12px}
+div.post.reply div.body{overflow-y:auto;max-height:70vh}
+.intro span.name{color:#a9a4ff;font-style:italic}.post .subject{color:#ffd166}.post .trip{color:#7bd88f}
+.post-image{box-shadow:0 2px 4px rgba(0,0,0,.6)}.quote{color:#9ccc65}.ql{color:#ff8fa3}.postmode{background:#7a1f1f}
+input,select,textarea{background:#14151f;color:#c8cad8;border:1px solid #3a3d5c}button{background:#3a3d5c;color:#fff;border:1px solid #55598a}
+pre.code{background:#14151f}.rte{background:#14151f;color:#c8cad8}hr{border-color:#3a3d5c}.spoiler{background:#000;color:#000}.spoiler:hover,.spoiler.show{color:#fff}

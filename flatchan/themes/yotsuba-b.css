@@ -1,0 +1,44 @@
+/* Yotsuba B */
+body {
+    background: #fafcff;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200px;
+    color: #000;
+}
+a{color:#34345c}a:hover{color:#d00}
+.navbar{background:linear-gradient(#d6daf0,#fafcff);border-bottom:1px solid #b7c5d9}
+.title{color:#af0a0f}
+.subtitle{color:#555}
+.box,.tbl{background:#eef2ff}
+.tbl th,.formtable th,.dnav li.on a{background:#98e;color:#000}
+.tbl td{background:#eef2ff;border:0}.sub td{background:#d6daf0}
+.dnav a{background:#d6daf0}.dnav li.on a{font-weight:bold}
+div.post.reply {
+    background: #fafcff;
+    margin: 0.3em 6px;
+    padding: 0.2em 0.3em 0.5em 0.6em;
+    border-width: 1px;
+    border-style: none solid solid none;
+    border-radius: 0.7em;
+    box-shadow: 0.1rem 0.2rem 0.1rem 0.02rem rgba(1,2,3,.5);
+    margin-top: 20px;
+    border-color: #b7c5d9;
+}
+div.post.reply div.body {
+    overflow-y: auto;
+    max-height: 70vh;
+}
+div.post.op{background:transparent}
+.intro span.name {
+    font-style: italic;
+    color: rgb(129, 123, 204);
+}
+.post .subject{color:#0f0c5d}.post .trip{color:#228854}
+.post-image {
+    box-shadow: 0.1rem 0.2rem 0.1rem 0.03rem rgba(0,0,0,.2);
+}
+.postmode{background:#e04000}
+.quote{color:#789922}.ql{color:#d00}
+.rte{background:#fff}
